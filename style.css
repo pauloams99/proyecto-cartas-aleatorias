@@ -1,0 +1,28 @@
+.card-poker {
+    height: 500px;
+    background-color: white; 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.figure-top {
+    padding-left: 5px; 
+}
+
+.figure-bottom {
+    align-self: flex-end; 
+    transform: rotate(180deg); 
+    padding-right: 5px; 
+}
+
+/* Clases de color que JavaScript aplicará dinámicamente */
+.red-suit {
+    color: #FF0000; /* Rojo para corazones y diamantes */
+}
+
+.black-suit {
+    color: #000000; /* Negro para picas y tréboles */
+}
